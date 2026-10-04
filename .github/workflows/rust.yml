@@ -2,9 +2,9 @@ name: Rust
 
 on:
   push:
-    branches: ["master" , "development"]
+    branches: ["main" , "development"]
   pull_request:
-    branches: ["master" , "development"]
+    branches: ["main" , "development"]
 
 # Least privilege: these jobs only need to read the code.
 permissions:

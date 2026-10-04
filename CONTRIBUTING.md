@@ -16,16 +16,16 @@ contributors and is the reference for the development workflow.
 ### Structure
 
 ```
-  master (production)
+  main (production)
     │
     └── development (integration / active development)
           │
           └── feature/*, fix/* (created from development)
 ```
 
-- **`master`** (a.k.a. `main`) — production branch, holds the current released, stable version of the app.
+- **`main`** — production branch, holds the current released, stable version of the app.
 - **`development`** — active development branch where features and fixes are
-  integrated and tested (including via CI) before being promoted to `master`.
+  integrated and tested (including via CI) before being promoted to `main`.
 
 ### Rules
 
@@ -34,9 +34,9 @@ contributors and is the reference for the development workflow.
 | **Creation** | `feature/*` / `fix/*` branches are always created from `development` |
 | **Validation** | Once development is finished, a Pull Request is opened towards `development` |
 | **Merge to development** | After PR validation (CI green: build, tests, clippy), the branch is merged into `development` |
-| **Promotion to production** | `development` is merged into `master` when a release is ready |
-| **Forbidden** | No branch should be created directly from `master` |
-| **Forbidden** | `development` must never be merged directly into `master` without going through a reviewed PR |
+| **Promotion to production** | `development` is merged into `main` when a release is ready |
+| **Forbidden** | No branch should be created directly from `main` |
+| **Forbidden** | `development` must never be merged directly into `main` without going through a reviewed PR |
 
 ---
 
@@ -79,7 +79,7 @@ contributors and is the reference for the development workflow.
 3. Run `cargo build`, `cargo test`, and `cargo clippy --all-targets --all-features` locally (same checks as CI)
 4. Open a Pull Request towards `development`
 5. Once the PR is reviewed, approved, and CI is green, it is merged into `development`
-6. `development` is periodically merged into `master` for releases
+6. `development` is periodically merged into `main` for releases
 
 ---
 ---
@@ -103,17 +103,17 @@ de développement.
 ### Structure
 
 ```
-  master (production)
+  main (production)
     │
     └── development (intégration / développement actif)
           │
           └── feature/*, fix/* (créées depuis development)
 ```
 
-- **`master`** (alias `main`) — branche de production, contient la version stable actuellement publiée de l'application.
+- **`main`** — branche de production, contient la version stable actuellement publiée de l'application.
 - **`development`** — branche de développement actif où les fonctionnalités
   et correctifs sont intégrés et testés (notamment via la CI) avant d'être
-  promus vers `master`.
+  promus vers `main`.
 
 ### Règles
 
@@ -122,9 +122,9 @@ de développement.
 | **Création** | Les branches `feature/*` / `fix/*` sont toujours créées depuis `development` |
 | **Validation** | Une fois le développement terminé, une Pull Request est ouverte vers `development` |
 | **Merge vers development** | Après validation de la PR (CI au vert : build, tests, clippy), la branche est fusionnée dans `development` |
-| **Promotion en production** | `development` est mergé vers `master` lorsqu'une release est prête |
-| **Interdit** | Aucune branche ne doit être créée directement depuis `master` |
-| **Interdit** | `development` ne doit jamais être mergé directement dans `master` sans passer par une PR revue |
+| **Promotion en production** | `development` est mergé vers `main` lorsqu'une release est prête |
+| **Interdit** | Aucune branche ne doit être créée directement depuis `main` |
+| **Interdit** | `development` ne doit jamais être mergé directement dans `main` sans passer par une PR revue |
 
 ---
 
@@ -167,4 +167,4 @@ de développement.
 3. Lancez `cargo build`, `cargo test` et `cargo clippy --all-targets --all-features` en local (mêmes vérifications que la CI)
 4. Ouvrez une Pull Request vers `development`
 5. Une fois la PR revue, approuvée et la CI au vert, elle est fusionnée dans `development`
-6. `development` est régulièrement mergé vers `master` lors des releases
+6. `development` est régulièrement mergé vers `main` lors des releases
