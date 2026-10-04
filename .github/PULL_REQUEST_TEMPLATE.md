@@ -33,7 +33,7 @@ https://github.com/Alexandre-git-SDV/Aegyx/blob/development/CONTRIBUTING.md
 
 ## Checklist
 
-- [ ] This PR targets the `development` branch (not `master`)
+- [ ] This PR targets the `development` branch (not `main`)
 - [ ] I have read the [Contributing Guide](../CONTRIBUTING.md)
 - [ ] `cargo build` passes locally
 - [ ] `cargo test` passes locally

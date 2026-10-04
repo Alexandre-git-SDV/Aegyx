@@ -22,9 +22,9 @@ Branches
 ----------------
 Branch | Description
 --- | ---
-[master](https://github.com/Alexandre-git-SDV/Gestionnaire-de-Mot-de-Passe-Rust/tree/master) | Production branch (main), holds the current released, stable version
-[development](https://github.com/Alexandre-git-SDV/Gestionnaire-de-Mot-de-Passe-Rust/tree/development) | Active development branch (integration and CI tests)
-[1.0](https://github.com/Alexandre-git-SDV/Gestionnaire-de-Mot-de-Passe-Rust/tree/1.0) | Old version, no longer maintained
+[main](https://github.com/Alexandre-git-SDV/Aegyx/tree/main) | Production branch, holds the current released, stable version
+[development](https://github.com/Alexandre-git-SDV/Aegyx/tree/development) | Active development branch (integration and CI tests)
+[1.0](https://github.com/Alexandre-git-SDV/Aegyx/tree/1.0) | Old version, no longer maintained
 
 Program and version
 ----------------
@@ -66,9 +66,9 @@ Branches
 ----------------
 Branche | Description
 --- | ---
-[master](https://github.com/Alexandre-git-SDV/Gestionnaire-de-Mot-de-Passe-Rust/tree/master) | Branche de production (main), contient la version stable actuellement publiée
-[development](https://github.com/Alexandre-git-SDV/Gestionnaire-de-Mot-de-Passe-Rust/tree/development) | Branche de développement actif (intégration et tests CI)
-[1.0](https://github.com/Alexandre-git-SDV/Gestionnaire-de-Mot-de-Passe-Rust/tree/1.0) | Ancienne version, non maintenue
+[main](https://github.com/Alexandre-git-SDV/Aegyx/tree/main) | Branche de production, contient la version stable actuellement publiée
+[development](https://github.com/Alexandre-git-SDV/Aegyx/tree/development) | Branche de développement actif (intégration et tests CI)
+[1.0](https://github.com/Alexandre-git-SDV/Aegyx/tree/1.0) | Ancienne version, non maintenue
 
 Programme et version
 ----------------
